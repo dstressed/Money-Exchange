@@ -8,7 +8,7 @@ module.exports = function makeExchange(currency) {
     var i = 0;
 
     function getCount(i) {
-        if (i > 4) return;
+        if (i == 5) return;
         var coin = coins[i];
         if (n >= coin) {
             var times = Math.floor(n / coin);
